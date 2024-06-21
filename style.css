@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Chela+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Teko:wght@300..700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Chela One", system-ui;
+  font-weight: 400;
+  font-size: 60px;
+  margin: 0;
+}
+p {
+  margin: 0;
+  font-family: "Chela One", system-ui;
+  font-weight: 400;
+  font-size: 20px;
+}
+.score {
+  color: red;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+  font-family: monospace;
+}
+
+.nav {
+  text-align: center;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 10em;
+}
+.card .weapon:hover {
+  cursor: pointer;
+}
+.card img {
+  height: auto;
+  width: 17em;
+}
+.card img:hover {
+  transform: rotate(20deg);
+}
+.card p:hover {
+  transform: rotate(-20deg);
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0 0 0;
+}
+.footer img {
+  height: auto;
+  width: 50px;
+}
+.footer p {
+  font-family: "Teko", sans-serif;
+}

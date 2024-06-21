@@ -3,10 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <script src="script.js"></script>
+    <div class="score">
+      <table>
+        <h3>SCORE</h3>
+        <tr>
+          <a>Player: <a id="player"></a></a>
+        </tr>
+        <tr>
+          <a>Computer: <a id="computer"></a></a>
+        </tr>
+      </table>
+    </div>
+    <div class="nav">
+      <h1 id="header">Chose Your Weapon</h1>
+      <p id="subHead">rock&lt;paper&lt;scissors</p>
+    </div>
+    <div class="card">
+      <div onclick="apa()" class="weapon" id="rock">
+        <img src="icon/1.png" alt="" />
+        <p>ROCK</p>
+      </div>
+      <div class="weapon" id="paper">
+        <img src="icon/3.png" alt="" />
+        <p>PAPER</p>
+      </div>
+      <div class="weapon" id="scissors">
+        <img src="icon/2.png" alt="" />
+        <p>SCISSOR</p>
+      </div>
+    </div>
+    <div class="footer">
+      <img src="icon/github.png" alt="" />
+      <p>created by faarlv</p>
+    </div>
   </body>
+  <script src="script.js"></script>
 </html>
